@@ -1,0 +1,207 @@
+[
+    {
+      "Port Number": 20,
+      "Service name": "FTP-data",
+      "Transport protocol": "TCP, SCTP",
+      "Description": "File Transfer Protocol data transfer"
+    },
+    {
+      "Port Number": 21,
+      "Service name": "FTP",
+      "Transport protocol": "TCP, UDP",
+      "Description": "File Transfer Protocol (FTP) control connection"
+    },
+    {
+      "Port Number": 22,
+      "Service name": "SSH, SCP",
+      "Transport protocol": "SCTP",
+      "Description": "Secure Shell, secure logins, file transfers (scp, sifp), and port forwarding"
+    },
+    {
+      "Port Number": 23,
+      "Service name": "Telnet",
+      "Transport protocol": "TCP",
+      "Description": "Telnet protocol - unencrypted text communications"
+    },
+    {
+      "Port Number": 25,
+      "Service name": "SMTP",
+      "Transport protocol": "TCP",
+      "Description": "Simple Mail Transfer Protocol, used for email routing between mail servers"
+    },
+    {
+      "Port Number": 53,
+      "Service name": "DNS",
+      "Transport protocol": "TCP, UDP",
+      "Description": "Domain Name System name resolver"
+    },
+    {
+      "Port Number": 80,
+      "Service name": "HTTP",
+      "Transport protocol": "TCP, UDP",
+      "Description": "Hypertext Transfer Protocol (HTTP) uses TCP in versions 1.x and 2. HTTP/3 uses QUIC, a transport protocol on top of UDP"
+    },
+    {
+      "Port Number": 88,
+      "Service name": "Kerberos",
+      "Transport protocol": "TCP, UDP",
+      "Description": "Network authentication system"
+    },
+    {
+      "Port Number": 110,
+      "Service name": "POP3",
+      "Transport protocol": "TCP",
+      "Description": "Post Office Protocol, version 3 (POP3)"
+    },
+    {
+      "Port Number": 135,
+      "Service name": "Microsoft EPMAP",
+      "Transport protocol": "TCP, UDP",
+      "Description": "Microsoft EPMAP (End Point Mapper), also known as Microsoft EPMAP, DCE/RPC Locator service, used to remotely manage services including DHCP server, DNS server, and WINS. Also used by DCOM"
+    },
+    {
+      "Port Number": 137,
+      "Service name": "NetBIOS-NS",
+      "Transport protocol": "TCP, UDP",
+      "Description": "NetBIOS Name Service, used for name registration and resolution"
+    },
+    {
+      "Port Number": 139,
+      "Service name": "NetBIOS-SSN",
+      "Transport protocol": "TCP, UDP",
+      "Description": "NetBIOS Session Service"
+    },
+    {
+      "Port Number": 161,
+      "Service name": "SNMP",
+      "Transport protocol": "TCP, UDP",
+      "Description": "Simple Network Management Protocol"
+    },
+    {
+      "Port Number": 389,
+      "Service name": "LDAP",
+      "Transport protocol": "TCP",
+      "Description": "LDAP (Lightweight Directory Access Protocol) and Active Directory"
+    },
+    {
+      "Port Number": 443,
+      "Service name": "HTTPS",
+      "Transport protocol": "HTTP over TCP, UDP, SSL, SCTP",
+      "Description": "Hypertext Transfer Protocol Secure (HTTPS) uses TCP in versions 1.x and 2. HTTP/3 uses QUIC, a transport protocol on top of UDP."
+    },
+    {
+      "Port Number": 445,
+      "Service name": "SMB",
+      "Transport protocol": "TCP, UDP",
+      "Description": "Server Message Block is a file sharing service used by Microsoft Windows"
+    },
+    {
+      "Port Number": 464,
+      "Service name": "Kerberos",
+      "Transport protocol": "TCP, UDP",
+      "Description": "Kerberos Change/Set password"
+    },
+    {
+    "Port Number": 465,
+    "Service name": "SMTP over TLS/SSL",
+    "Transport protocol": "TCP",
+    "Description": "Authenticated SMTP over TLS/SSL (SMTPS), URL Rendezvous Directory for SSM (Cisco protocol)"
+    },
+    {
+    "Port Number": 554,
+    "Service name": "RTSP",
+    "Transport protocol": "TCP",
+    "Description": "Real Time Streaming Protocol"
+    },
+    {
+    "Port Number": 587,
+    "Service name": "SMTP",
+    "Transport protocol": "TCP",
+    "Description": "Email message submission"
+    },
+    {
+    "Port Number": 636,
+    "Service name": "LDAP over TLS/SSL",
+    "Transport protocol": "TCP, UDP",
+    "Description": "Lightweight Directory Access Protocol over TLS/SSL"
+    },
+    {
+    "Port Number": 691,
+    "Service name": "MS Exchange Routing",
+    "Transport protocol": "TCP",
+    "Description": "MS Exchange Routing"
+    },
+    {
+    "Port Number": 902,
+    "Service name": "VMware Server",
+    "Transport protocol": "TCP",
+    "Description": "unofficial VMware ESXi"
+    },
+    {
+    "Port Number": 989,
+    "Service name": "FTP over SSL (data)",
+    "Transport protocol": "TCP, UDP",
+    "Description": "FTPS Protocol (data), FIP over TLS/SSL"
+    },
+    {
+    "Port Number": 990,
+    "Service name": "FTP over SSL (control)",
+    "Transport protocol": "TCP, UDP",
+    "Description": "FTPS Protocol (control), FIP over TLS/SSL"
+    },
+    {
+    "Port Number": 995,
+    "Service name": "POP3 over SSL",
+    "Transport protocol": "TCP, UDP",
+    "Description": "Post Office Protocol 3 over TLS/SSL"
+    },
+    {
+    "Port Number": 1025,
+    "Service name": "Microsoft RPC",
+    "Transport protocol": "TCP",
+    "Description": "Windows allocate unsuspected, publicly exposed services immediately above the end of the service port range (1024+)"
+    },
+    {
+    "Port Number": 1194,
+    "Service name": "OpenVPN",
+    "Transport protocol": "TCP, UDP",
+    "Description": "OpenVPN"
+    },
+    {
+    "Port Number": 3306,
+    "Service name": "MySQL",
+    "Transport protocol": "TCP",
+    "Description": "MySQL database system"
+    },
+    {
+    "Port Number": 3389,
+    "Service name": "RDP",
+    "Transport protocol": "TCP",
+    "Description": "Remote Desktop Protocol"
+    },
+    {
+    "Port Number": 5432,
+    "Service name": "PostgreSQL",
+    "Transport protocol": "TCP",
+    "Description": "PostgreSQL database system"
+    },
+    {
+    "Port Number": 8000,
+    "Service name": "HTTP",
+    "Transport protocol": "TCP",
+    "Description": "Commonly used as an alternate HTTP port."
+    },
+    {
+    "Port Number": 8080,
+    "Service name": "HTTP",
+    "Transport protocol": "TCP",
+    "Description": "Commonly used as an alternate HIP port."
+    },
+    {
+    "Port Number": 8443,
+    "Service name": "HTTPS",
+    "Transport protocol": "TCP",
+    "Description": "Commonly used as an alternate HTTPS port."
+    }
+]
+      
